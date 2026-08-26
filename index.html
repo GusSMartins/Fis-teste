@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Física em Foco | Revisão para Provas</title>
+
+    <meta name="description"
+        content="Revisão completa de Física para o Ensino Médio: gases perfeitos, transformações gasosas, ondas, interferência, óptica geométrica e espelhos planos.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- KaTeX -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">Φ</span>
+                <span>Física<span class="logo-highlight"> em Foco</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#gases">Gases</a>
+                <a href="#transformacoes">Transformações</a>
+                <a href="#ondas">Ondas</a>
+                <a href="#optica">Óptica</a>
+                <a href="#espelhos">Espelhos</a>
+                <a href="#formulas">Fórmulas</a>
+
+                <a href="#quiz" class="nav-button">
+                    Testar conhecimentos
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        REVISÃO • ENSINO MÉDIO
+                    </span>
+
+                    <h1>
+                        Física fica muito mais fácil
+                        quando você entende
+                        <span>o que está acontecendo.</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Uma revisão completa e visual dos principais conteúdos
+                        de Termologia, Ondulatória e Óptica para você chegar
+                        preparado na prova.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#gases" class="btn btn-primary">
+                            Começar revisão →
+                        </a>
+
+                        <a href="#formulas" class="btn btn-secondary">
+                            Ver fórmulas
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>2</strong>
+                            <span>Módulos</span>
+                        </div>
+
+                        <div>
+                            <strong>6</strong>
+                            <span>Conteúdos</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Revisão</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="physics-card">
+
+                        <div class="orbit orbit-1"></div>
+                        <div class="orbit orbit-2"></div>
+
+                        <div class="atom">
+                            <div class="nucleus">E</div>
+                            <div class="electron e1"></div>
+                            <div class="electron e2"></div>
+                            <div class="electron e3"></div>
+                        </div>
+
+                        <div class="formula-floating formula-1">
+                            PV = nRT
+                        </div>
+
+                        <div class="formula-floating formula-2">
+                            ΔS = pλ
+                        </div>
+
+                        <div class="formula-floating formula-3">
+                            i = r
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO ================= -->
+
+        <section class="intro section">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <span class="eyebrow">ANTES DE COMEÇAR</span>
+
+                    <h2>
+                        Como estudar Física sem decorar tudo?
+                    </h2>
+
+                    <p>
+                        Em Física, decorar fórmulas sem entender as grandezas
+                        costuma gerar confusão. A estratégia é simples:
+                    </p>
+
+                </div>
+
+
+                <div class="strategy-grid">
+
+                    <article class="strategy-card">
+                        <span class="strategy-number">01</span>
+                        <h3>Entenda</h3>
+                        <p>
+                            Descubra o fenômeno físico antes de pensar na fórmula.
+                        </p>
+                    </article>
+
+                    <article class="strategy-card">
+                        <span class="strategy-number">02</span>
+                        <h3>Identifique</h3>
+                        <p>
+                            Veja quais grandezas aparecem no problema e suas unidades.
+                        </p>
+                    </article>
+
+                    <article class="strategy-card">
+                        <span class="strategy-number">03</span>
+                        <h3>Relacione</h3>
+                        <p>
+                            Escolha a equação que conecta as grandezas conhecidas
+                            às que você precisa descobrir.
+                        </p>
+                    </article>
+
+                    <article class="strategy-card">
+                        <span class="strategy-number">04</span>
+                        <h3>Confira</h3>
+                        <p>
+                            Analise se o resultado faz sentido fisicamente.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MÓDULO 1 ================= -->
+
+        <section class="module module-dark">
+
+            <div class="container">
+
+                <div class="module-header">
+
+                    <div>
+
+                        <span class="module-tag">
+                            MÓDULO 01
+                        </span>
+
+                        <h2>
+                            Termologia
+                        </h2>
+
+                        <p>
+                            Gases, pressão, volume, temperatura e transformações.
+                        </p>
+
+                    </div>
+
+                    <div class="module-number">
+                        01
+                    </div>
+
+                </div>
+
+
+                <!-- GASES PERFEITOS -->
+
+                <article class="lesson" id="gases">
+
+                    <div class="lesson-header">
+
+                        <span class="lesson-number">
+                            01
+                        </span>
+
+                        <div>
+                            <span class="lesson-category">
+                                TERMODINÂMICA
+                            </span>
+
+                            <h3>
+                                Gases Perfeitos
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="content-grid">
+
+                        <div class="content-text">
+
+                            <p>
+                                Um <strong>gás perfeito</strong>, também chamado
+                                gás ideal, é um modelo físico utilizado para
+                                estudar o comportamento dos gases.
+                            </p>
+
+                            <p>
+                                Nesse modelo, consideramos que as partículas
+                                possuem volume desprezível, estão em movimento
+                                constante e praticamente não exercem forças
+                                de interação umas sobre as outras.
+                            </p>
+
+                            <div class="highlight">
+                                <strong>Ideia central:</strong>
+                                o estado de uma determinada quantidade de gás
+                                pode ser descrito principalmente por
+                                <strong>pressão, volume e temperatura.</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="visual-card gas-animation">
+
+                            <div class="gas-container">
+
+                                <div class="particle p1"></div>
+                                <div class="particle p2"></div>
+                                <div class="particle p3"></div>
+                                <div class="particle p4"></div>
+                                <div class="particle p5"></div>
+                                <div class="particle p6"></div>
+
+                            </div>
+
+                            <p>
+                                Partículas em movimento constante
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- VARIÁVEIS -->
+
+                    <div class="subsection">
+
+                        <h4>
+                            As variáveis de estado
+                        </h4>
+
+                        <div class="variable-grid">
+
+                            <div class="variable-card">
+                                <span>P</span>
+                                <strong>Pressão</strong>
+                                <small>Pa</small>
+                                <p>
+                                    Relacionada às colisões das partículas
+                                    com as paredes do recipiente.
+                                </p>
+                            </div>
+
+                            <div class="variable-card">
+                                <span>V</span>
+                                <strong>Volume</strong>
+                                <small>m³</small>
+                                <p>
+                                    Espaço ocupado pelo gás.
+                                </p>
+                            </div>
+
+                            <div class="variable-card">
+                                <span>T</span>
+                                <strong>Temperatura</strong>
+                                <small>K</small>
+                                <p>
+                                    Relacionada à energia cinética média
+                                    das partículas.
+                                </p>
+                            </div>
+
+                            <div class="variable-card">
+                                <span>n</span>
+                                <strong>Quantidade</strong>
+                                <small>mol</small>
+                                <p>
+                                    Número de mols presentes no sistema.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CLAPEYRON -->
+
+                    <div class="formula-section">
+
+                        <span class="formula-label">
+                            EQUAÇÃO DE CLAPEYRON
+                        </span>
+
+                        <div class="formula">
+                            PV = nRT
+                        </div>
+
+                        <p>
+                            Essa é uma das equações mais importantes
+                            envolvendo gases ideais.
+                        </p>
+
+                        <div class="formula-variables">
+
+                            <div>
+                                <strong>P</strong>
+                                <span>pressão → Pa</span>
+                            </div>
+
+                            <div>
+                                <strong>V</strong>
+                                <span>volume → m³</span>
+                            </div>
+
+                            <div>
+                                <strong>n</strong>
+                                <span>quantidade → mol</span>
+                            </div>
+
+                            <div>
+                                <strong>R</strong>
+                                <span>constante → 8,31 J/mol·K</span>
+                            </div>
+
+                            <div>
+                                <strong>T</strong>
+                                <span>temperatura → K</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MACETE -->
+
+                    <div class="tip-box">
+
+                        <div class="tip-icon">💡</div>
+
+                        <div>
+
+                            <strong>MACETE DE PROVA</strong>
+
+                            <p>
+                                Na equação <strong>PV = nRT</strong>,
+                                lembre que a temperatura precisa estar
+                                em <strong>Kelvin</strong>.
+                            </p>
+
+                            <p>
+                                Para converter:
+                            </p>
+
+                            <div class="mini-formula">
+                                T(K) = T(°C) + 273
+                            </div>
+
+                            <p>
+                                Exemplo:
+                                27 °C → 300 K.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- COTIDIANO -->
+
+                    <div class="example-card">
+
+                        <div class="example-content">
+
+                            <span class="example-tag">
+                                NO COTIDIANO
+                            </span>
+
+                            <h4>
+                                Por que uma bola fica mais cheia no calor?
+                            </h4>
+
+                            <p>
+                                Quando a temperatura aumenta, as partículas
+                                do gás ficam mais agitadas. Dependendo das
+                                condições do recipiente, isso pode provocar
+                                aumento da pressão ou do volume.
+                            </p>
+
+                        </div>
+
+                        <div class="example-visual">
+                            ⚽
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TRANSFORMAÇÕES -->
+
+                <article class="lesson" id="transformacoes">
+
+                    <div class="lesson-header">
+
+                        <span class="lesson-number">
+                            02
+                        </span>
+
+                        <div>
+                            <span class="lesson-category">
+                                TERMODINÂMICA
+                            </span>
+
+                            <h3>
+                                Transformações Gasosas
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <p class="lesson-intro">
+                        Uma transformação gasosa ocorre quando pelo menos
+                        uma das variáveis de estado do gás muda.
+                    </p>
+
+
+                    <div class="transformation-grid">
+
+                        <!-- ISOTÉRMICA -->
+
+                        <div class="transformation-card">
+
+                            <div class="transformation-icon">
+                                T
+                            </div>
+
+                            <h4>
+                                Isotérmica
+                            </h4>
+
+                            <span class="condition">
+                                Temperatura constante
+                            </span>
+
+                            <div class="formula">
+                                PV = constante
+                            </div>
+
+                            <p>
+                                Se o volume diminui, a pressão aumenta.
+                                Se o volume aumenta, a pressão diminui.
+                            </p>
+
+                            <div class="mini-chart">
+                                ↗ P
+                                <br>
+                                ↘ V
+                            </div>
+
+                            <strong>
+                                P₁V₁ = P₂V₂
+                            </strong>
+
+                        </div>
+
+
+                        <!-- ISOBÁRICA -->
+
+                        <div class="transformation-card">
+
+                            <div class="transformation-icon">
+                                P
+                            </div>
+
+                            <h4>
+                                Isobárica
+                            </h4>
+
+                            <span class="condition">
+                                Pressão constante
+                            </span>
+
+                            <div class="formula">
+                                V/T = constante
+                            </div>
+
+                            <p>
+                                Aumentando a temperatura, o volume aumenta.
+                            </p>
+
+                            <strong>
+                                V₁/T₁ = V₂/T₂
+                            </strong>
+
+                        </div>
+
+
+                        <!-- ISOCÓRICA -->
+
+                        <div class="transformation-card">
+
+                            <div class="transformation-icon">
+                                V
+                            </div>
+
+                            <h4>
+                                Isocórica
+                            </h4>
+
+                            <span class="condition">
+                                Volume constante
+                            </span>
+
+                            <div class="formula">
+                                P/T = constante
+                            </div>
+
+                            <p>
+                                Aumentando a temperatura, a pressão aumenta.
+                            </p>
+
+                            <strong>
+                                P₁/T₁ = P₂/T₂
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EQUAÇÃO GERAL -->
+
+                    <div class="general-equation">
+
+                        <div>
+
+                            <span class="formula-label">
+                                EQUAÇÃO GERAL DOS GASES
+                            </span>
+
+                            <div class="formula large">
+                                P₁V₁/T₁ = P₂V₂/T₂
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Utilize essa relação quando a quantidade de gás
+                            permanecer constante e houver alteração simultânea
+                            de pressão, volume e temperatura.
+                        </p>
+
+                    </div>
+
+
+                    <div class="tip-box">
+
+                        <div class="tip-icon">
+                            🧠
+                        </div>
+
+                        <div>
+
+                            <strong>MACETE PARA NÃO CONFUNDIR</strong>
+
+                            <p>
+                                O nome da transformação indica a grandeza
+                                que permanece <strong>constante</strong>.
+                            </p>
+
+                            <ul>
+
+                                <li>
+                                    <strong>ISOtérmica</strong> → T constante
+                                </li>
+
+                                <li>
+                                    <strong>ISObárica</strong> → P constante
+                                </li>
+
+                                <li>
+                                    <strong>ISOcórica</strong> → V constante
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="example-card">
+
+                        <div class="example-content">
+
+                            <span class="example-tag">
+                                NO COTIDIANO
+                            </span>
+
+                            <h4>
+                                Seringa: pressão e volume
+                            </h4>
+
+                            <p>
+                                Ao puxar o êmbolo de uma seringa fechada,
+                                o volume disponível para o gás aumenta.
+                                Se a temperatura permanecer aproximadamente
+                                constante, a pressão diminui.
+                            </p>
+
+                        </div>
+
+                        <div class="example-visual">
+                            💉
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MÓDULO 2 ================= -->
+
+        <section class="module module-light">
+
+            <div class="container">
+
+                <div class="module-header light">
+
+                    <div>
+
+                        <span class="module-tag">
+                            MÓDULO 02
+                        </span>
+
+                        <h2>
+                            Ondulatória & Óptica
+                        </h2>
+
+                        <p>
+                            Ondas, interferência, luz, reflexão e espelhos.
+                        </p>
+
+                    </div>
+
+                    <div class="module-number">
+                        02
+                    </div>
+
+                </div>
+
+
+                <!-- ONDAS -->
+
+                <article class="lesson" id="ondas">
+
+                    <div class="lesson-header">
+
+                        <span class="lesson-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <span class="lesson-category">
+                                ONDULATÓRIA
+                            </span>
+
+                            <h3>
+                                Fenômenos Ondulatórios
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="content-grid">
+
+                        <div class="content-text">
+
+                            <p>
+                                Uma <strong>onda</strong> é uma perturbação
+                                que se propaga transportando energia, sem
+                                transportar matéria de forma permanente.
+                            </p>
+
+                            <p>
+                                Exemplos de fenômenos ondulatórios incluem
+                                reflexão, refração, difração e interferência.
+                            </p>
+
+                            <div class="highlight">
+
+                                <strong>Importante:</strong>
+
+                                <br>
+
+                                Quando duas ou mais ondas se encontram,
+                                seus efeitos podem se somar ou se cancelar.
+                                Esse fenômeno é chamado
+                                <strong>interferência.</strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="wave-visual">
+
+                            <div class="wave wave-a"></div>
+                            <div class="wave wave-b"></div>
+                            <div class="wave wave-result"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INTERFERÊNCIA -->
+
+                    <div class="subsection">
+
+                        <h4>
+                            Interferência por diferença de caminho
+                        </h4>
+
+                        <p>
+                            Considere duas fontes coerentes emitindo ondas
+                            em fase. Um ponto do espaço recebe as duas ondas
+                            após elas percorrerem caminhos diferentes.
+                        </p>
+
+                        <div class="difference-path">
+
+                            <div class="source">
+                                F₁
+                            </div>
+
+                            <div class="path path-one">
+                                <span>
+                                    d₁
+                                </span>
+                            </div>
+
+                            <div class="path path-two">
+                                <span>
+                                    d₂
+                                </span>
+                            </div>
+
+                            <div class="point">
+                                P
+                            </div>
+
+                        </div>
+
+
+                        <div class="interference-grid">
+
+                            <div class="interference-card constructive">
+
+                                <span>
+                                    INTERFERÊNCIA CONSTRUTIVA
+                                </span>
+
+                                <div class="formula">
+                                    Δd = nλ
+                                </div>
+
+                                <p>
+                                    As ondas chegam em concordância de fase
+                                    e suas amplitudes se reforçam.
+                                </p>
+
+                                <strong>
+                                    Cristas + cristas → amplitude maior
+                                </strong>
+
+                            </div>
+
+
+                            <div class="interference-card destructive">
+
+                                <span>
+                                    INTERFERÊNCIA DESTRUTIVA
+                                </span>
+
+                                <div class="formula">
+                                    Δd = (2n + 1)λ/2
+                                </div>
+
+                                <p>
+                                    As ondas chegam em oposição de fase
+                                    e tendem a se cancelar.
+                                </p>
+
+                                <strong>
+                                    Crista + vale → amplitude menor
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SIMULADOR -->
+
+                    <div class="simulator">
+
+                        <div class="simulator-header">
+
+                            <div>
+
+                                <span class="formula-label">
+                                    SIMULADOR
+                                </span>
+
+                                <h4>
+                                    Diferença de caminho
+                                </h4>
+
+                            </div>
+
+                            <span id="interferenceStatus"
+                                class="status-badge">
+                                Construtiva
+                            </span>
+
+                        </div>
+
+
+                        <canvas id="interferenceCanvas"
+                            width="800"
+                            height="280">
+                        </canvas>
+
+
+                        <div class="simulator-controls">
+
+                            <label>
+                                Diferença de caminho:
+
+                                <input
+                                    type="range"
+                                    id="pathDifference"
+                                    min="0"
+                                    max="4"
+                                    step="0.1"
+                                    value="1">
+
+                                <strong>
+                                    <span id="pathValue">1.0</span> λ
+                                </strong>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tip-box">
+
+                        <div class="tip-icon">
+                            ⚡
+                        </div>
+
+                        <div>
+
+                            <strong>MACETE</strong>
+
+                            <p>
+                                Pense em "inteiros" e "meios":
+                            </p>
+
+                            <p>
+                                <strong>Inteiro de λ → construtiva</strong>
+                            </p>
+
+                            <p>
+                                <strong>Meio ímpar de λ → destrutiva</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="example-card">
+
+                        <div class="example-content">
+
+                            <span class="example-tag">
+                                NO COTIDIANO
+                            </span>
+
+                            <h4>
+                                Cancelamento de ruído
+                            </h4>
+
+                            <p>
+                                Fones com cancelamento ativo de ruído produzem
+                                ondas que interferem destrutivamente com parte
+                                do som externo, reduzindo sua intensidade.
+                            </p>
+
+                        </div>
+
+                        <div class="example-visual">
+                            🎧
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- OPTICA -->
+
+                <article class="lesson" id="optica">
+
+                    <div class="lesson-header">
+
+                        <span class="lesson-number">
+                            04
+                        </span>
+
+                        <div>
+
+                            <span class="lesson-category">
+                                ÓPTICA
+                            </span>
+
+                            <h3>
+                                Óptica Geométrica
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <p>
+                        A óptica geométrica estuda a propagação da luz
+                        utilizando o conceito de <strong>raios de luz</strong>.
+                    </p>
+
+
+                    <div class="principles-grid">
+
+                        <div class="principle-card">
+
+                            <span>
+                                01
+                            </span>
+
+                            <h4>
+                                Propagação retilínea
+                            </h4>
+
+                            <p>
+                                Em meios homogêneos e transparentes,
+                                a luz se propaga em linha reta.
+                            </p>
+
+                        </div>
+
+
+                        <div class="principle-card">
+
+                            <span>
+                                02
+                            </span>
+
+                            <h4>
+                                Independência dos raios
+                            </h4>
+
+                            <p>
+                                Raios de luz podem se cruzar sem alterar
+                                suas trajetórias.
+                            </p>
+
+                        </div>
+
+
+                        <div class="principle-card">
+
+                            <span>
+                                03
+                            </span>
+
+                            <h4>
+                                Reversibilidade
+                            </h4>
+
+                            <p>
+                                O caminho percorrido pela luz pode ser
+                                realizado no sentido inverso.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="example-card">
+
+                        <div class="example-content">
+
+                            <span class="example-tag">
+                                NO COTIDIANO
+                            </span>
+
+                            <h4>
+                                Sombra e eclipse
+                            </h4>
+
+                            <p>
+                                A formação de sombras acontece porque a luz
+                                se propaga aproximadamente em linha reta
+                                em meios homogêneos.
+                            </p>
+
+                        </div>
+
+                        <div class="example-visual">
+                            ☀️ → 🌑
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ESPELHOS -->
+
+                <article class="lesson" id="espelhos">
+
+                    <div class="lesson-header">
+
+                        <span class="lesson-number">
+                            05
+                        </span>
+
+                        <div>
+
+                            <span class="lesson-category">
+                                ÓPTICA GEOMÉTRICA
+                            </span>
+
+                            <h3>
+                                Reflexão da Luz e Espelhos Planos
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <h4>
+                        As leis da reflexão
+                    </h4>
+
+
+                    <div class="laws-grid">
+
+                        <div class="law-card">
+
+                            <span>
+                                1ª LEI
+                            </span>
+
+                            <p>
+                                O raio incidente, o raio refletido e a reta
+                                normal pertencem ao mesmo plano.
+                            </p>
+
+                        </div>
+
+
+                        <div class="law-card">
+
+                            <span>
+                                2ª LEI
+                            </span>
+
+                            <div class="formula">
+                                i = r
+                            </div>
+
+                            <p>
+                                O ângulo de incidência é igual ao ângulo
+                                de reflexão.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ESPELHO -->
+
+                    <div class="mirror-demo">
+
+                        <div class="object-person">
+                            👤
+                        </div>
+
+                        <div class="mirror">
+                            <span>
+                                ESPELHO
+                            </span>
+                        </div>
+
+                        <div class="image-person">
+                            👤
+                        </div>
+
+                        <div class="distance-label">
+                            d = d'
+                        </div>
+
+                    </div>
+
+
+                    <div class="image-properties">
+
+                        <h4>
+                            Características da imagem no espelho plano
+                        </h4>
+
+                        <div class="properties-grid">
+
+                            <div>
+                                <strong>Virtual</strong>
+                                <span>
+                                    Não pode ser projetada em uma tela.
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Direita</strong>
+                                <span>
+                                    Mantém orientação vertical.
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Mesmo tamanho</strong>
+                                <span>
+                                    O tamanho da imagem é igual ao objeto.
+                                </span>
+                            </div>
+
+                            <div>
+                                <strong>Simétrica</strong>
+                                <span>
+                                    Objeto e imagem estão à mesma distância
+                                    do espelho.
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CAMPO VISUAL -->
+
+                    <div class="subsection">
+
+                        <h4>
+                            Campo visual
+                        </h4>
+
+                        <p>
+                            O campo visual de uma pessoa em relação a um
+                            espelho é a região que pode ser observada através
+                            da reflexão da luz.
+                        </p>
+
+                        <div class="field-visual">
+
+                            <div class="eye">
+                                👁️
+                            </div>
+
+                            <div class="field-mirror">
+                                │
+                                <br>
+                                │
+                                <br>
+                                │
+                            </div>
+
+                            <div class="visual-rays">
+                                ╲
+                                <br>
+                                ─────────
+                                <br>
+                                ╱
+                            </div>
+
+                            <span>
+                                Campo visual
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tip-box">
+
+                        <div class="tip-icon">
+                            🪞
+                        </div>
+
+                        <div>
+
+                            <strong>MACETE DO ESPELHO</strong>
+
+                            <p>
+                                No espelho plano, pense em quatro palavras:
+                            </p>
+
+                            <p>
+                                <strong>Virtual • Direita • Igual • Simétrica</strong>
+                            </p>
+
+                            <p>
+                                Além disso:
+                                <strong>dₒ = dᵢ</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="example-card">
+
+                        <div class="example-content">
+
+                            <span class="example-tag">
+                                NO COTIDIANO
+                            </span>
+
+                            <h4>
+                                Por que você vê seu rosto no espelho?
+                            </h4>
+
+                            <p>
+                                A luz emitida ou refletida pelo seu rosto
+                                atinge o espelho e é refletida até seus olhos.
+                                Seu cérebro interpreta os raios como se
+                                viessem de trás do espelho, formando uma
+                                imagem virtual.
+                            </p>
+
+                        </div>
+
+                        <div class="example-visual">
+                            🪞
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FÓRMULAS ================= -->
+
+        <section class="formulas-section" id="formulas">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <span class="eyebrow">
+                        REVISÃO RÁPIDA
+                    </span>
+
+                    <h2>
+                        Fórmulas que você precisa dominar
+                    </h2>
+
+                    <p>
+                        Antes da prova, revise estas relações e,
+                        principalmente, saiba quando utilizá-las.
+                    </p>
+
+                </div>
+
+
+                <div class="formula-table">
+
+                    <div class="formula-row header-row">
+                        <span>Conteúdo</span>
+                        <span>Fórmula</span>
+                        <span>Quando usar?</span>
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Clapeyron
+                        </span>
+
+                        <strong>
+                            PV = nRT
+                        </strong>
+
+                        <span>
+                            Gás ideal
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Isotérmica
+                        </span>
+
+                        <strong>
+                            P₁V₁ = P₂V₂
+                        </strong>
+
+                        <span>
+                            T constante
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Isobárica
+                        </span>
+
+                        <strong>
+                            V₁/T₁ = V₂/T₂
+                        </strong>
+
+                        <span>
+                            P constante
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Isocórica
+                        </span>
+
+                        <strong>
+                            P₁/T₁ = P₂/T₂
+                        </strong>
+
+                        <span>
+                            V constante
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Geral dos gases
+                        </span>
+
+                        <strong>
+                            P₁V₁/T₁ = P₂V₂/T₂
+                        </strong>
+
+                        <span>
+                            Estado inicial → final
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Interferência construtiva
+                        </span>
+
+                        <strong>
+                            Δd = nλ
+                        </strong>
+
+                        <span>
+                            Reforço
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Interferência destrutiva
+                        </span>
+
+                        <strong>
+                            Δd = (2n+1)λ/2
+                        </strong>
+
+                        <span>
+                            Cancelamento
+                        </span>
+
+                    </div>
+
+
+                    <div class="formula-row">
+
+                        <span>
+                            Reflexão
+                        </span>
+
+                        <strong>
+                            i = r
+                        </strong>
+
+                        <span>
+                            Espelhos
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="warning-box">
+
+                    <strong>⚠️ ATENÇÃO NA PROVA</strong>
+
+                    <p>
+                        Temperatura em equações dos gases deve ser utilizada
+                        em <strong>Kelvin</strong>, especialmente quando você
+                        estiver aplicando diretamente as relações
+                        proporcionais.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUIZ ================= -->
+
+        <section class="quiz-section" id="quiz">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <span class="eyebrow">
+                        DESAFIO FINAL
+                    </span>
+
+                    <h2>
+                        Você realmente entendeu?
+                    </h2>
+
+                    <p>
+                        Responda às questões abaixo para testar sua revisão.
+                    </p>
+
+                </div>
+
+
+                <div class="quiz-card">
+
+                    <div class="quiz-progress">
+                        <div id="progressBar"></div>
+                    </div>
+
+                    <div id="quizContent">
+
+                        <span class="question-number">
+                            QUESTÃO 1
+                        </span>
+
+                        <h3 id="question">
+                            Em uma transformação isotérmica, qual grandeza
+                            permanece constante?
+                        </h3>
+
+                        <div class="answers">
+
+                            <button data-answer="A">
+                                A) Pressão
+                            </button>
+
+                            <button data-answer="B">
+                                B) Volume
+                            </button>
+
+                            <button data-answer="C">
+                                C) Temperatura
+                            </button>
+
+                            <button data-answer="D">
+                                D) Quantidade de matéria
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="quizResult" class="quiz-result hidden"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FINAL ================= -->
+
+        <section class="final-section">
+
+            <div class="container">
+
+                <div class="final-card">
+
+                    <span class="eyebrow">
+                        ÚLTIMA REVISÃO
+                    </span>
+
+                    <h2>
+                        Antes de entregar a prova,
+                        respire e pense no fenômeno.
+                    </h2>
+
+                    <p>
+                        Física não é apenas substituir números em fórmulas.
+                        Leia o problema, identifique as grandezas,
+                        descubra o fenômeno envolvido e só então escolha
+                        a equação adequada.
+                    </p>
+
+                    <a href="#inicio" class="btn btn-primary">
+                        Voltar ao início ↑
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#inicio" class="logo">
+                    <span class="logo-icon">Φ</span>
+                    Física em Foco
+                </a>
+
+                <p>
+                    Revisão de Física para Ensino Médio.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#gases">Gases</a>
+                <a href="#ondas">Ondas</a>
+                <a href="#optica">Óptica</a>
+                <a href="#espelhos">Espelhos</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Física em Foco • Material educacional
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
